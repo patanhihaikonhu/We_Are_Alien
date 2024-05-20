@@ -48,17 +48,14 @@
         <marquee><p>Welcome</p></marquee>
         <p>♾️</p>
     </div>
-    <div class="product-grid">
-        <!-- Repeat this block for each product -->
-         <div class="product-info">
-                <p>fearless</p>
-            </div>
         <div class="product-card" style="background-color: azure;">
             <center><audio src="𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3"  controls></audio></center>
         </div>
     </div>
       <div >
-           ,<center> <video src="VID-20240429-WA0000.mp4" controls></video></center>
+          <video width="100%" height="auto" controls>
+  <source src="VID-20240429-WA0000.mp4" type="video/mp4">
+</video>
         </div> 
          <div>
         <a href="academic calendar2023-24.pdf">click here</a>
