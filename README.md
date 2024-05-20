@@ -57,7 +57,7 @@
 </video>
         </div>
          <div>
-        <a href="academic calendar2023-24.pdf">click here</a>
+        <a href="Untitled-1.html"> Click here to buy our most exclusive deal</a>
     </div> 
     <div style="text-align: center;"><footer style="background-color: bisque;"> &copy; by eScaPed alien fr0m aRea 51</footer></div>
    
