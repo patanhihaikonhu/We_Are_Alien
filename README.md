@@ -55,9 +55,10 @@
           <video width="100%" height="auto" controls>
   <source src="VID-20240429-WA0000.mp4" type="video/mp4">
 </video>
-        </div> <div>
+        </div>
+    <div>
     <form action="Untitled-1.html">
-                    <input type="submit" value="Click here to buy our most exclusive deal" />
+                    <input type="submit" value="Click here to buy our most exclusive deal">
     </div>
     <div style="text-align: center;"><footer style="background-color: bisque;"> &copy; by eScaPed alien fr0m aRea 51</footer></div>
    
