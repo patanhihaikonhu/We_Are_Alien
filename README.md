@@ -63,7 +63,7 @@
 </video>
         </div>
       <div >
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/npunlAQaPPQ" title="Yoe Mase - Look to The Dawn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/npunlAQaPPQ" title="Yoe Mase - Look to The Dawn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     <hr>
     <div>
