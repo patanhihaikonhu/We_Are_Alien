@@ -1,17 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
-    <link rel="stylesheet" href="D:\vs coding\Untitled-1.css">
-    <link rel="stylesheet" type="image/x-icon" href="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\AC\INetCache\3KTYCX21\208482231_848317812464038_6839431846161073134_n[1].jpg">
+    <title>Your Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            flex: 0 1 calc(25% - 1em);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 300px;
+        }
+        .product-card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="document.location='D:\songs\𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3'">HTML Tutorial</button></body>
-    <a href="/html/default.asp">HTML tutorial</a><hr>
-<img src="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\AC\INetCache\3KTYCX21\208482231_848317812464038_6839431846161073134_n[1].jpg " height="100px">
-<hr>
-<audio src="D:\songs\𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3" controls ></audio>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita libero molestiae dolore vero. Velit quo perferendis, minima laboriosam recusandae hic repudiandae saepe natus aperiam et odio nulla quibusdam fuga.</p>
+    <div class="header">
+        <h1>Welcome to My Shop</h1>
+        <p>Discover our exclusive deals</p>
+    </div>
+    <div class="product-grid">
+        <!-- Repeat this block for each product -->
+        <div class="product-card">
+            <audio src="D:\vs coding\𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3" controls></audio>
+            <div class="product-info">
+                <h2>Product Name</h2>
+                <p>Product description...</p>
+                <p>Price: 500₹</p>
+            </div>
+        </div>
+        <!-- End of product block -->
+    </div>
+</body>
 </html>
