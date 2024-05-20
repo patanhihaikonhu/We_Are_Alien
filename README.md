@@ -59,6 +59,7 @@
          <div>
         <a href="academic calendar2023-24.pdf">click here</a>
     </div> 
-    <div style="text-align: center;"><span>&;#169;<span>by alien escaped from area 51</div>
+    <div style="text-align: center;"><footer style="background-color: bisque;"> &copy; by eScaPed alien fr0m aRea 51</footer></div>
+   
 </body>
 </html>
