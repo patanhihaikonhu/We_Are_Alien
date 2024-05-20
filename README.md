@@ -62,6 +62,11 @@
   <source src="VID-20240429-WA0000.mp4" type="video/mp4">
 </video>
         </div>
+      <div >
+          <video width="100%" height="auto" controls>
+  <source src="VID-20240429-WA0000.mp4" type="video/mp4">
+</video>
+        </div>
     <hr>
     <div>
     <form action="Untitled-1.html">
