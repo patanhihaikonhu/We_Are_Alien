@@ -39,17 +39,17 @@
 </head>
 <body>
     <div class="header">
-        <h1>Welcome to My Shop</h1>
-        <p>Discover our exclusive deals</p>
+        <h1>Welcome</h1>
+        <p>Discover</p>
     </div>
     <div class="product-grid">
         <!-- Repeat this block for each product -->
         <div class="product-card">
             <audio src="D:\vs coding\𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3" controls></audio>
             <div class="product-info">
-                <h2>Product Name</h2>
-                <p>Product description...</p>
-                <p>Price: 500₹</p>
+                <h2>Music</h2>
+                <p>fearless</p>
+                <p>Price: 500M₹</p>
             </div>
         </div>
         <!-- End of product block -->
