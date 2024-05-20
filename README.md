@@ -64,8 +64,7 @@
         </div>
       <div >
           <iframe width="100%" height="auto" src="https://www.youtube.com/embed/npunlAQaPPQ" title="Yoe Mase - Look to The Dawn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    <div><iframe width="100%" height="auto" src="https://www.youtube.com/embed/MoN9ql6Yymw?list=LL" title="David Kushner - Daylight (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </div>
     <hr>
     <div>
     <form action="Untitled-1.html">
