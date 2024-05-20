@@ -39,7 +39,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>Welcome</h1>
+        <marquee><h1>Welcome</h1></marquee>
         <p>Discover</p>
     </div>
     <div class="product-grid">
