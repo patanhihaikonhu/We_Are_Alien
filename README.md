@@ -55,15 +55,15 @@
             <center><audio src="In The Name Of Love (Slowed Reverb) Lofi Mix-(PagalSongs.Com.IN).mp3"  controls></audio></center>
         </div>
       <div class="product-card" style="background-color: azure;">
-            <audio src="INZO - Overthinker.mp3"  controls></audio>
+            <audio src="INZO - Overthinker.mp3"  controls frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></audio>
         </div>
     <div >
           <video width="100%" height="auto" controls>
-  <source src="The Boy, the Mole, the Fox and the Horse - Look to The Dawn.mp4" type="video/mp4">
+  <source src="The Boy, the Mole, the Fox and the Horse - Look to The Dawn.mp4" type="video/mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </video>
         </div>
       <div >
-          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/npunlAQaPPQ" title="Yoe Mase - Look to The Dawn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/npunlAQaPPQ" title="Yoe Mase - Look to The Dawn" frameborder="0"></iframe>
       </div>
     <hr>
     <div>
