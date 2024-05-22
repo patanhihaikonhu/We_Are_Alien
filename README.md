@@ -2,8 +2,6 @@
 <head>
     <title>Welcome</title>
     <link rel="icon" type="image/x-icon" href="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\AC\INetCache\3KTYCX21\208482231_848317812464038_6839431846161073134_n[1].jpg">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6658310405536654"
-     crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,6 +51,8 @@
         <div class="product-card" style="background-color: azure;">
             <center><audio src="𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3"  controls></audio></center>
         </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6658310405536654"
+     crossorigin="anonymous"></script>
     <div class="product-card" style="background-color: azure;">
             <center><audio src="In The Name Of Love (Slowed Reverb) Lofi Mix-(PagalSongs.Com.IN).mp3"  controls></audio></center>
         </div>
