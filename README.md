@@ -45,7 +45,7 @@
 </head>
 <body style="background-color:azure;">
     <div class="header">
-        <marquee><p>Welcome</p></marquee>
+        <marquee><p>🌷Welcome🌷</p></marquee>
         <p>♾️</p>
     </div>
         <div class="product-card" style="background-color: azure;">
