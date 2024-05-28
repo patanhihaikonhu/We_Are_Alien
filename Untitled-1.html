@@ -5,20 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🌷Welcome🌷</title>
 <style>
-header{ 
-    box-sizing: border-box;
-     margin: 0; 
-     padding: 0;
-     }
-.body { 
-    font-family: Arial, sans-serif;
-}
-.glass { 
-    background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(10px); 
-    border-radius: 10px;
-    padding: 20px; 
-}
+  body {
+      font-family: Arial, sans-serif;
+  }
+  .header {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 1px;
+  }
+  .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 40px;
+  }
+  .product-card {
+      border: 0px solid #ddd;
+      margin-bottom: 40px;
+      flex: 0 1 calc(25% - 1em);
+      box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
+      transition: 0.3s;
+      width: auto;
+  }
+  .product-card:hover {
+      box-shadow: 0 8px 16px rgb(184, 74, 156);
+  }
+  .product-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .product-info {
+      padding: 20px;
+  }
+  .video-container{     
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -34,7 +58,7 @@ header{
   font-size: 17px;
   display: block;
 }
-.topnav a.icon {
+.topnav .icon {
   background: black;
   display: block;
   position: absolute;
@@ -49,33 +73,12 @@ header{
   background-color: #cf78b5;
   color: white;
 }
-header { 
-    text-align: center;
- }
-header .glass {
-     margin-top: 20px;
-     }
-.quotes {
-     display: flex;
-      justify-content: space-around;
-     }
-.quotes .glass { 
-    margin: 20px;
-     flex-basis: calc(33% - 40px); 
-    }
-.audio, .video {
-     text-align: center;
-      margin-top: 20px;
-     }
-.audio .glass, .video .glass { 
-    padding: 40px; 
-}
-footer {
+/* footer {
      text-align: center; margin-top: 20px;
      }
 footer .glass {
      padding: 10px;
-      }
+      } */
 </style>
 <script>
     function myFunction() {
@@ -101,36 +104,32 @@ footer .glass {
         <i class="fa fa-bars"></i>
       </a>
     </div>
-<header class="glass">
+<header class="product-card">
 <h1>🌷Welcome🌷</h1>
-<div class="glass"><p>Experience the modern design trend of Glassmorphism!</p></div>
+<div class="product-card"><p>Experience the modern design trend of Glassmorphism!</p></div>
 </header>
-<section class="quotes">
-<div class="glass">
+<section class="product-card">
+<div class="product-card">
 <blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
 </div>
-<div class="glass">
+<div class="product-card">
 <blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</blockquote>
 </div>
-<div class="glass">
+<div class="product-card">
 <blockquote>"Believe you can and you're halfway there." - Theodore Roosevelt</blockquote>
 </div>
 </section>
-<section class="audio glass">
+<section class="product-card">
 <h2>Listen to Our Latest Podcast</h2>
-<audio controls>
-<source src="podcast.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+<audio src="𝙇𝙤𝙨𝙩 𝙨𝙠𝙮 - 𝙁𝙀𝘼𝙍𝙇𝙀𝙎𝙎 ⧸⧸ ( 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙤 𝙨𝙡𝙤𝙬𝙚𝙙 𝙖𝙣𝙙 𝙧𝙚𝙫𝙚𝙧𝙗).mp3" controls>
 </audio>
 </section>
-<section class="video glass">
+<section class="product-card">
 <h2>Watch Our Featured Video</h2>
-<video controls>
-<source src="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.51895FA4EA97F_cv1g1gvanyjgm\LocalState\shared\transfers\2024_21\VID-20240528-WA0001.mp4" type="video/mp4">
-Your browser does not support the video element.
+<video width="100%" height="auto" src="VID-20240528-WA0001.mp4" type="video/mp4" controls>
 </video>
 </section>
-<footer class="glass">
+<footer class="product-card">
 <p>© 2024 Glassmorphism Inc. All rights reserved.</p>
 </footer>
 </body>
