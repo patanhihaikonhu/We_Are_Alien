@@ -21,12 +21,12 @@
             border: 0px solid #ddd;
             margin-bottom: 40px;
             flex: 0 1 calc(25% - 1em);
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
             transition: 0.3s;
             width: auto;
         }
         .product-card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px rgb(184, 74, 156);
         }
         .product-image {
             width: 100%;
