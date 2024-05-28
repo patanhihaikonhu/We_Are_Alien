@@ -5,13 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🌷Welcome🌷</title>
 <style>
-  body {
-      font-family: Arial, sans-serif;
+  .body {
+      font-family: Arial, sans-serif; 
+     
   }
   .header {
       background-color: #f8f9fa;
       text-align: center;
       padding: 1px;
+      
+    
   }
   .product-grid {
       display: flex;
@@ -23,9 +26,11 @@
       border: 0px solid #ddd;
       margin-bottom: 40px;
       flex: 0 1 calc(25% - 1em);
-      box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
+      box-shadow: 0 4px 8px 0 rgb(174, 115, 189);
       transition: 0.3s;
       width: auto;
+      padding: 20px;
+      background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=is&k=20&c=M-zkBx55YCn_UZg9cyuVMm1nS_PhSKGqoVybgO1Dp0Y=);
   }
   .product-card:hover {
       box-shadow: 0 8px 16px rgb(184, 74, 156);
@@ -36,11 +41,17 @@
       object-fit: cover;
   }
   .product-info {
-      padding: 20px;
+      
+      border: 0px solid #ddd;
+      margin-bottom: 40px;
+      flex: 0 1 calc(25% - 1em);
+      box-shadow: 0 4px 8px 0 rgb(7, 7, 7);
+      transition: 0.3s;
+      width: auto;
   }
   .video-container{     
-   display: flex;
-   justify-content: center;
+   display:flex;
+  justify-content: center;
    align-items: center;
   }
 .topnav {
@@ -59,7 +70,7 @@
   display: block;
 }
 .topnav .icon {
-  background: black;
+  background: rgb(235, 228, 234);
   display: block;
   position: absolute;
   right: 0;
@@ -73,12 +84,6 @@
   background-color: #cf78b5;
   color: white;
 }
-/* footer {
-     text-align: center; margin-top: 20px;
-     }
-footer .glass {
-     padding: 10px;
-      } */
 </style>
 <script>
     function myFunction() {
@@ -92,9 +97,10 @@ footer .glass {
 </script>
 </head>
 <body>
+  <div class="product-card">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="topnav">
-      <a href="#home" class="active">Logo</a>
+      <a href="#home" class="product-card">Logo</a>
       <div id="myLinks">
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
@@ -104,6 +110,7 @@ footer .glass {
         <i class="fa fa-bars"></i>
       </a>
     </div>
+  </div>
 <header class="product-card">
 <h1>🌷Welcome🌷</h1>
 <div class="product-card"><p>Experience the modern design trend of Glassmorphism!</p></div>
@@ -126,11 +133,11 @@ footer .glass {
 </section>
 <section class="product-card">
 <h2>Watch Our Featured Video</h2>
-<video width="100%" height="auto" src="VID-20240429-WA0000.mp4" type="video/mp4"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen controls>
+<video width="100%" height="auto" src="VID-20240528-WA0001.mp4" type="video/mp4" controls>
 </video>
 </section>
-<footer class="product-card">
-<p>© 2024 Glassmorphism Inc. All rights reserved.</p>
+<footer style="background-image:url(WhatsApp Image 2024-05-28 at 22.45.53_e33e38bd.jpg);" class="product-card">
+<p>© 2024 Alien Inc. All rights reserved.</p>
 </footer>
 </body>
 </html>
