@@ -1,62 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>WELCOME</title>
-    <link rel="icon" type="image/x-icon" href="IMG_20240407_115028.jpg">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .header {
-            background-color: #f8f9fa;
-            text-align: center;
-            padding: 1px;
-        }
-        .product-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-top: 40px;
-        }
-        .product-card {
-            border: 0px solid #ddd;
-            margin-bottom: 40px;
-            flex: 0 1 calc(25% - 1em);
-            box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
-            transition: 0.3s;
-            width: auto;
-        }
-        .product-card:hover {
-            box-shadow: 0 8px 16px rgb(184, 74, 156);
-        }
-        .product-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .product-info {
-            padding: 20px;
-        }
-        .video-container{     
-         display: flex;
-         justify-content: center;
-         align-items: center;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌷Welcome🌷</title>
+<style>
+header{ 
+    box-sizing: border-box;
+     margin: 0; 
+     padding: 0;
+     }
+.body { 
+    font-family: Arial, sans-serif;
+}
+.glass { 
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    padding: 20px; 
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #cf78b5;
+  color: white;
+}
+header { 
+    text-align: center;
+ }
+header .glass {
+     margin-top: 20px;
+     }
+.quotes {
+     display: flex;
+      justify-content: space-around;
+     }
+.quotes .glass { 
+    margin: 20px;
+     flex-basis: calc(33% - 40px); 
+    }
+.audio, .video {
+     text-align: center;
+      margin-top: 20px;
+     }
+.audio .glass, .video .glass { 
+    padding: 40px; 
+}
+footer {
+     text-align: center; margin-top: 20px;
+     }
+footer .glass {
+     padding: 10px;
+      }
+</style>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </head>
 <body>
-    <div class="header">
-        <h1>🌸Welcome🌸</h1>
-        <p>Today most exclusive deals</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav">
+      <a href="#home" class="active">Logo</a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <div class="product-grid">
-      <center><iframe src="VID-20240429-WA0000.mp4" title="unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </center><div class="product-info" style="text-align: center;">
-        <div class="product-card">
-                <form action="https://c.tenor.com/X3zt412_sykAAAAC/tenor.gif">
-                    <input type="submit" value="Click here! A surprise for you" />
-                </form>
-            </div>
-        </div>
-    </div>
+<header class="glass">
+<h1>🌷Welcome🌷</h1>
+<div class="glass"><p>Experience the modern design trend of Glassmorphism!</p></div>
+</header>
+<section class="quotes">
+<div class="glass">
+<blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
+</div>
+<div class="glass">
+<blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</blockquote>
+</div>
+<div class="glass">
+<blockquote>"Believe you can and you're halfway there." - Theodore Roosevelt</blockquote>
+</div>
+</section>
+<section class="audio glass">
+<h2>Listen to Our Latest Podcast</h2>
+<audio controls>
+<source src="podcast.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</section>
+<section class="video glass">
+<h2>Watch Our Featured Video</h2>
+<video controls>
+<source src="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.51895FA4EA97F_cv1g1gvanyjgm\LocalState\shared\transfers\2024_21\VID-20240528-WA0001.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+</section>
+<footer class="glass">
+<p>© 2024 Glassmorphism Inc. All rights reserved.</p>
+</footer>
 </body>
 </html>
