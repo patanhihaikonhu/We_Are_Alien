@@ -48,7 +48,7 @@
         <marquee><p>🌷Welcome🌷</p></marquee>
         <p>♾️</p>
     </div>
-    <br><hr> <div style="text-align: center;">
+    <br> <div style="text-align: center;">
     <form action="Untitled-1.html">
     <input type="submit" value="Click here"></form>
     </div>
