@@ -5,11 +5,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=is&k=20&c=M-zkBx55YCn_UZg9cyuVMm1nS_PhSKGqoVybgO1Dp0Y=);
         }
         .header {
             background-color: #f8f9fa;
             text-align: center;
             padding: 1px;
+                  background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=is&k=20&c=M-zkBx55YCn_UZg9cyuVMm1nS_PhSKGqoVybgO1Dp0Y=);
         }
         .product-grid {
             display: flex;
@@ -24,6 +26,8 @@
             box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
             transition: 0.3s;
             width: auto;
+            background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=is&k=20&c=M-zkBx55YCn_UZg9cyuVMm1nS_PhSKGqoVybgO1Dp0Y=);
+
         }
         .product-card:hover {
             box-shadow: 0 8px 16px rgb(184, 74, 156);
