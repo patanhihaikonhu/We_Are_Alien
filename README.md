@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <link rel="icon" type="image/x-icon" href="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\AC\INetCache\3KTYCX21\208482231_848317812464038_6839431846161073134_n[1].jpg">
@@ -20,6 +19,7 @@
   bottom: 0;
   background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
   width: 100%;
+  height: 10%
   padding: 20px;
 }
 
