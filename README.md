@@ -18,7 +18,7 @@
 .content {
   position: fixed;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
   width: 100%;
   padding: 20px;
 }
@@ -83,7 +83,7 @@
 </video>
 
 <div class="content">
-  <h1>Heading</h1>
+  <h1><marquee direction="up">Trust me you are Alien</marquee></h1>
   <p><footer > &copy; by eScaPed alien fr0m aRea 51</footer></p>
   <button id="myBtn" onclick="myFunction()">Pause</button>
 </div>
