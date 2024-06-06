@@ -5,119 +5,84 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🌷Welcome🌷</title>
 <style>
-  .body {
-      font-family: Arial, sans-serif;
-  }
-  .header {
-      background-color: #f8f9fa;
-      text-align: center;
-      padding: 1px;
-  }
-  .product-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-top: 40px;
-  }
-  .product-card {
-      border: 0px solid #ddd;
+   .product-card {
       margin-bottom: 40px;
       flex: 0 1 calc(25% - 1em);
-      box-shadow: 0 4px 8px 0 rgb(174, 115, 189);
       transition: 0.3s;
       width: auto;
-      padding: 20px;
+      padding: 20px;
   }
-  .product-card:hover {
-      box-shadow: 0 8px 16px rgb(184, 74, 156);
+</style>
+<style>
+  .pro{
+    padding:auto;
+    margin-bottom: 20px;
+    background-color: unset;
+    text-align: center;
   }
-  .product-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+</style>
+<style>
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Place the video behind other elements */
   }
-  .product-info {
-      
-      border: 0px solid #ddd;
-      margin-bottom: 40px;
-      flex: 0 1 calc(25% - 1em);
-      box-shadow: 0 4px 8px 0 rgb(7, 7, 7);
-      transition: 0.3s;
-      width: auto;
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
+    width: 100%;
+    height: 10%
+    padding: 20px;
   }
-  .video-container{     
-   display:flex;
-  justify-content: center;
-   align-items: center;
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width:100px;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    background: #c06d9d;
+    cursor: pointer;
   }
-.topnav {
+  
+  #myBtn:hover {
+    color: rgb(119, 30, 179);
+  }
+  </style>
+  <style>
+    .topnav {
   overflow: hidden;
-  background-color: #333;
   position: relative;
 }
 .topnav #myLinks {
   display: none;
 }
 .topnav a {
-  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
 }
 .topnav .icon {
-  background: rgb(235, 228, 234);
   display: block;
+  background-color: #cf78b5;
   position: absolute;
   right: 0;
   top: 0;
 }
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
 }
 .active {
-  background-color: #cf78b5;
-  color: white;
 }
-</style>
-  <style>
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1; /* Place the video behind other elements */
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
-  width: 100%;
-  height: 10%
-  padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #c06d9d;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  color: rgb(119, 30, 179);
-}
-</style>
-  <script>
-// Get the video
+  </style>
+<script>
 var video = document.getElementById("myVideo");
 
 // Get the button
@@ -131,131 +96,105 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
-  </script>
+</script>
 <script>
-    function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+  function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+  x.style.display = "none";
+} else {
+  x.style.display = "block";
+}
 }
 </script>
-</head>
-
-<body class="product-card">
-
-  <video autoplay muted loop id="myVideo">
-
-  <source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4">
-
-</video>
-
-<div class="content">
-
-  <h1><marquee direction="up">Trust me you are Alien</marquee></h1>
-
-  <p>
-<footer > &copy; by eScaPed alien fr0m aRea 51</footer>
-</p>
-
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-</div>
+<body>
+  <video autoplay muted loop id="myVideo"><source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4"></video>
   <div class="topnav">
-     <a href="https://patanhihaikonhu.github.io/We_Are_Alien/" class="product-card">Home</a>
+    <a href="https://patanhihaikonhu.github.io/We_Are_Alien/" class="product-card">Home</a>
 
-      <div id="myLinks">
-        <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJnBrNvfETvfFllQQOiJOvzu&si=yrV0U31e0KIQn5nK">Playlist 1</a>
-        <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJn_j_eF1XqjOJFda1DoulQV&si=_U8B3jd45kcWsbXX">playlist 2</a>
-        <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJkwljskSF35mNFHA3opoaPq&si=Sd4m5RO1-xnSIZK8">Playlist 3</a>
-        <a href="mailto:deependrayad2@gmail.com">Contact</a>
-        <a href="#about">About: I am an Alien</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-<header class="product-card">
-<center><h1>🌷Welcome🌷</h1></center></center>
-
-  <div class="product-card">
+     <div id="myLinks">
+       <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJnBrNvfETvfFllQQOiJOvzu&si=yrV0U31e0KIQn5nK">Playlist 1</a>
+       <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJn_j_eF1XqjOJFda1DoulQV&si=_U8B3jd45kcWsbXX">playlist 2</a>
+       <a href="https://youtube.com/playlist?list=PLyLc3DNwDAJkwljskSF35mNFHA3opoaPq&si=Sd4m5RO1-xnSIZK8">Playlist 3</a>
+       <a href="mailto:deependrayad2@gmail.com">Contact</a>
+       <a href="#about">About: I am an Alien</a>
+     </div>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+       <i class="fa fa-bars"></i>
+     </a>
+   </div>
+    <center><h1>🌷Welcome🌷</h1></center></center>
+    <div class="product-card">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/xh6judJ8IxU" title="OST《陈情令 The Untamed》 | 《无羁》 Wu Ji (2020 Special Ver) by Xiao Zhan &amp; Wang Yibo【MULTI SUB】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 </div>
-
 <div class="product-card">
  
- <iframe width="100%" height="auto" src="《 The Untamed》【BTS】——The most cute paper man in the world.mp4" title="unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>  
+  <iframe width="100%" height="auto" src="《 The Untamed》【BTS】——The most cute paper man in the world.mp4" title="unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+ </iframe>  
 </div>
+<section>
+  <div class="product-card">
+  <blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
+  </div>
+  <div class="product-card">
+  <blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</blockquote>
+  </div>
+  <div class="product-card">
+  <blockquote>"Believe you can and you're halfway there." - Theodore Roosevelt</blockquote>
+  </div>
+  </section>
+  <section class="product-card"><h2> But how we can do anything without thinking..</h2>
+    <center>
+    <audio src="INZO - Overthinker.mp3" controls>
+    </audio></center>
+    </section>
+    <section class="product-card">
+      <h2>I think...</h2>
+      <iframe width="100%" height="auto" src="The Boy, the Mole, the Fox and the Horse - Look to The Dawn.mp4" title="unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+      <div class="pro">
+      <form  action="https://getform.io/f/lakmzeda" method="POST"> 
+        <label for="uname">  
+            Name
+        </label> 
+        <input class="pro" style="border: 1px;" type="text" id="uname" 
+               name="uname" placeholder="Enter your name" required> 
+      <br>
+            Email  
+        </label> 
+        <input class="pro" style="border: 1px;" type="email" id="email" 
+               name="email" placeholder="Enter your email Address" required> 
+      <br>
+            Phone No 
+        </label> 
+        <input class="pro" style="border: 1px;" type="tel" id="phone" 
+               name="phone" placeholder="Enter your mobile number" required> 
+      <br>
+        <label> 
+            Do you like this? 
+        </label> 
+        <div class="radio-group"> 
+            <input type="radio" id="yes" 
+                   name="satisfy" value="yes" checked> 
+            <label for="yes">Yes</label> 
+      
+            <input type="radio" id="no" 
+                   name="satisfy" value="no"> 
+            <label for="no">No</label> 
+        </div> 
+      <label>Send Here:<input style="background-color: unset;" type="file"></label>
+        <label for="msg"> 
+            Write your Suggestions : 
+        </label> 
+        <textarea style="background-color: unset;">
+        </textarea>
+        <br>
+       <label class="pro" >
+          <input style="background-color: unset;" type="submit">
+        </label>
+      </form>
+      <hr>
 </div>
-</header> 
-<section class="product-card">
-<div class="product-card">
-<blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
-</div>
-<div class="product-card">
-<blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</blockquote>
-</div>
-<div class="product-card">
-<blockquote>"Believe you can and you're halfway there." - Theodore Roosevelt</blockquote>
-</div>
-</section>
-<section class="product-card">
-<h2> But how we can do anything without thinking..</h2>
-<audio src="INZO - Overthinker.mp3" controls>
-</audio>
-</section>
-
-<section class="product-card">
-<h2>I think...</h2>
- <div class="product-card">
-<iframe width="100%" height="auto" src="The Boy, the Mole, the Fox and the Horse - Look to The Dawn.mp4" title="unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</section>
-<div class="product-card">
-<form  action="https://getform.io/f/lakmzeda" method="POST"> 
-  <label for="uname">  
-      Name
-  </label> 
-  <input class="product-card" style="border: 1px;" type="text" id="uname" 
-         name="uname" placeholder="Enter your name" required> 
-<br>
-      Email Address 
-  </label> 
-  <input class="product-card" style="border: 1px;" type="email" id="email" 
-         name="email" placeholder="Enter your email Address" required> 
-<br>
-      Phone No 
-  </label> 
-  <input class="product-card" style="border: 1px;" type="tel" id="phone" 
-         name="phone" placeholder="Enter your mobile number" required> 
-<br>
-  <label> 
-      Do you like this? 
-  </label> 
-  <div class="radio-group"> 
-      <input type="radio" id="yes" 
-             name="satisfy" value="yes" checked> 
-      <label for="yes">Yes</label> 
-
-      <input type="radio" id="no" 
-             name="satisfy" value="no"> 
-      <label for="no">No</label> 
-  </div> 
-
-  <label for="msg"> 
-      Write your Suggestions : 
-  </label> 
-  <textarea class="product-card" style="border: 20px;" id="msg" name="msg" 
-            rows="4" cols="10"" required> 
-  </textarea> 
-  <center><label class="product-grid" ><input type="submit">
-  </label></center>
-  </button> 
-</form>
-<footer  class="product-card">
-<p>© 2024 Alien Inc. All rights reserved.</p>
-</footer>
+      <footer style="text-align: center;" class="product-card"> &copy; by eScaPed alien fr0m aRea 51</footer>
 </body>
-</html>
