@@ -20,7 +20,7 @@
   background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
   width: 100%;
   height: 10%
-  padding: 20px;
+  padding 20px;
 }
 
 /* Style the button used to pause/play the video */
@@ -57,6 +57,9 @@
         box-shadow: 0 4px 8px 0 rgb(184, 74, 156);
         transition: 0.3s;
         width: auto;
+        font-family: monospace;
+        background-color: unset;
+        color: azure;
             }
     .product-card:hover {
         box-shadow: 0 8px 16px rgb(184, 74, 156);
@@ -82,18 +85,14 @@
   <source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4">
 </video>
 
-<div class="content">
-  <h1><marquee direction="up">Trust me you are Alien</marquee></h1>
-  <p><footer > &copy; by eScaPed alien fr0m aRea 51</footer></p>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-</div>
+
 <div class="header">
     <marquee><p>🌷Welcome🌷</p></marquee>
     <p>♾️</p>
 </div>
 <br> <div style="text-align: center;">
 <form action="Untitled-1.html">
-<input type="submit" value="Click here"></form>
+<input style="background-color: unset;" type="submit" value="Click here"></form>
 </div>
 <br>
     <div class="product-card">
@@ -129,6 +128,14 @@ function myFunction() {
   }
 }
 </script>
-
+<footer>
+  <div class="product-card">
+    <div class="product-card">
+      <h1><marquee style="text-align: center;" direction="up">Trust me you are Alien</marquee></h1>
+      <p><footer style="text-align: center;" > &copy; by eScaPed alien fr0m aRea 51</footer></p>
+      <center><button  id="myBtn" onclick="myFunction()">Pause</button>
+    </center></div>
+  </div>
+</footer>
 </body>
 </html>
