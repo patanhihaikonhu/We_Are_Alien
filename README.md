@@ -3,7 +3,6 @@
     <link rel="icon" type="image/x-icon" href="D:\WpSystem\S-1-5-21-1601947504-312833793-2811066009-1001\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\AC\INetCache\3KTYCX21\208482231_848317812464038_6839431846161073134_n[1].jpg">
 
 <style>
-/* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
   right: 0;
