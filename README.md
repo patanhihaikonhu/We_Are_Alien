@@ -94,7 +94,7 @@
 <input style="background-color: unset;" type="submit" value="Click here"></form>
 </div>
 <div class="product-card">
-    <img src="17157757047895099468877844623067.jpg">
+    <img width="100%" src="17157757047895099468877844623067.jpg" border="1px">
 </div>
 <br>
     <div class="product-card">
