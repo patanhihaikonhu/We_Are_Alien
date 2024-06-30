@@ -51,41 +51,7 @@ video {
 
 </style>
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const uploadInput = document.createElement('input');
-    uploadInput.type = 'file';
-    uploadInput.accept = 'video/*';
-    uploadInput.style.display = 'none';
-
-    const uploadButton = document.createElement('button');
-    uploadButton.textContent = 'Upload Video';
-    document.body.appendChild(uploadButton);
-
-    uploadButton.addEventListener('click', () => {
-        uploadInput.click();
-    });
-
-    uploadInput.addEventListener('change', (event) => {
-        const file = event.target.files[0];
-        if (file) {
-            const videoContainer = document.querySelector('.video-container');
-            const videoElement = document.createElement('div');
-            videoElement.classList.add('video');
-
-            const video = document.createElement('video');
-            video.controls = true;
-            video.src = URL.createObjectURL(file);
-
-            const title = document.createElement('p');
-            title.textContent = file.name;
-
-            videoElement.appendChild(video);
-            videoElement.appendChild(title);
-            videoContainer.appendChild(videoElement);
-        }
-    });
-});
-
+    
 </script>
 </head>
 <body>
