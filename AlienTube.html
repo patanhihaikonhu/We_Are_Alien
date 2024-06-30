@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlienTube</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const uploadInput = document.createElement('input');
+    uploadInput.type = 'file';
+    uploadInput.accept = 'video/*';
+    uploadInput.style.display = 'none';
+
+    const uploadButton = document.createElement('button');
+    uploadButton.textContent = 'Upload Video';
+    document.body.appendChild(uploadButton);
+
+    uploadButton.addEventListener('click', () => {
+        uploadInput.click();
+    });
+
+    uploadInput.addEventListener('change', (event) => {
+        const file = event.target.files[0];
+        if (file) {
+            const videoContainer = document.querySelector('.video-container');
+            const videoElement = document.createElement('div');
+            videoElement.classList.add('video');
+
+            const video = document.createElement('video');
+            video.controls = true;
+            video.src = URL.createObjectURL(file);
+
+            const title = document.createElement('p');
+            title.textContent = file.name;
+
+            videoElement.appendChild(video);
+            videoElement.appendChild(title);
+            videoContainer.appendChild(videoElement);
+        }
+    });
+});
+
+</script>
+</head>
+<body>
+    <header>
+        <h1>YouTube Clone</h1>
+        <input type="text" placeholder="Search...">
+    </header>
+    <main>
+        <div class="video-container">
+            <div class="video">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video Title 1</p>
+            </div>
+            <div class="video">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video Title 2</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
