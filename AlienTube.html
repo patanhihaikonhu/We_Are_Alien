@@ -9,11 +9,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color:unset;
 }
 
 header {
-    background-color: #ff0000;
+    background-color:unset;
     color: white;
     padding: 10px;
     display: flex;
@@ -37,7 +37,7 @@ main {
 }
 
 .video {
-    background-color: white;
+    background-color: unset;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -48,40 +48,59 @@ video {
     width: 100%;
     height: auto;
 }
-
 </style>
 <script>
        document.oncontextmenu = document.body.oncontextmenu = function() {
     return false;
 }; 
 </script>
+    <script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
 </head>
 <body  oncontextmenu="return false;">
     <header>
         <centre><a href="README.html"><h1>AlienTube</h1><a></centre>
     </header>
+            <video autoplay muted loop id="myVideo">
+  <source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4">
+</video>
+
     <main>
         <div class="video-container">
             <div class="video">
-                <video controls>
+                <video controls controlsList="nodownload">
                     <source src="VID-20240629-WA0001.mp4" type="video/mp4">
                 </video>
                 <p>Exam days</p>
             </div>
             <div class="video">
-                <video controls>
+                <video controls controlsList="nodownload">
                     <source src="VID-20240429-WA0000.mp4" type="video/mp4">
                 </video>
                 <p>The Singer</p>
             </div>
                       <div class="video">
-                <video controls>
+                <video controls controlsList="nodownload">
                     <source src="VID-20240308-WA0022.mp4" type="video/mp4">
                 </video>
                 <p>Day-Dreamer</p>
                       </div>  
                       <div class="video">
-                <video controls>
+                <video controls controlsList="nodownload">
                     <source src="MP4_20240529_004004VLOG.mp4" type="video/mp4">
                 </video>
                 <p>No words</p>
