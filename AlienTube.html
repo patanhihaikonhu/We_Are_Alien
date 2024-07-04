@@ -49,6 +49,41 @@ video {
     height: auto;
 }
 </style>
+    <style>
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Place the video behind other elements */
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
+    width: 100%;
+    height: 10%
+    padding 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width:100px;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    background:unset;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    color: purple;
+  }
+    </style>
 <script>
        document.oncontextmenu = document.body.oncontextmenu = function() {
     return false;
