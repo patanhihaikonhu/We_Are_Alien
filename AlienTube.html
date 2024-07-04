@@ -6,10 +6,9 @@
     <title>AlienTube</title>
 <style>
 body {
-    font-family: Arial, sans-serif;
-    background-color:unset;
-}
+    font-family: Arial, sans-serif;}
 header {
+    text-color:lavender;
 text-align: center;
 }
 main {
@@ -25,7 +24,7 @@ main {
 .video {
     background-color: unset;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid purple;
     border-radius: 5px;
     width: 300px;
 }
@@ -36,18 +35,15 @@ video {
 }
 </style>
     <style>
-  /* Style the video: 100% width and height to cover the entire window */
   #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1; /* Place the video behind other elements */
+    z-index: -1;
   }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
+    .content {
     position: fixed;
     bottom: 0;
     background: rgba(106, 143, 199, 0.5); /* Semi-transparent background */
@@ -55,17 +51,14 @@ video {
     height: 10%
     padding 20px;
   }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
+    #myBtn {
     width:100px;
     font-size: 10px;
     padding: 10px;
     border: none;
     background:unset;
     cursor: pointer;
-  }
-  
+  }  
   #myBtn:hover {
     color: purple;
   }
@@ -126,6 +119,6 @@ function myFunction() {
     </main>
 </body>
             <video autoplay muted loop id="myVideo">
-  <source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4">
+  <source src="42197-429661458_medium.mp4" type="video/mp4">
             </video>
 </html>
