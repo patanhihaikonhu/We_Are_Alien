@@ -83,6 +83,49 @@ function myFunction() {
   }
 }
 </script>
+    <script>
+        const field = document.querySelector('textarea');
+const backUp = field.getAttribute('placeholder')
+const btn = document.querySelector('.btn');
+const clear = document.getElementById('clear')
+const submit = document.querySelector('#submit')
+// const comments = document.querySelector('#comment-box')
+const comments = document.getElementById('comment-box');
+
+// array to store the comments
+const comments_arr = [];
+
+// to generate html list based on comments array
+const display_comments = () => {
+  let list = '<ul>';
+   comments_arr.forEach(comment => {
+    list += `<li>${comment}</li>`;
+  })
+  list += '</ul>';
+  comments.innerHTML = list;
+}
+
+clear.onclick = function(event){
+  event.preventDefault();
+  // reset the array  
+   comments_arr.length = 0;
+  // re-genrate the comment html list
+  display_comments();
+}
+
+submit.onclick = function(event){
+    event.preventDefault();
+    const content = field.value;
+    if(content.length > 0){ // if there is content
+      // add the comment to the array
+      comments_arr.push(content);
+      // re-genrate the comment html list
+      display_comments();
+      // reset the textArea content 
+      field.value = '';
+    }
+}
+    </script>
 </head>
 <body  oncontextmenu="return false;">
     <header>
@@ -95,14 +138,22 @@ function myFunction() {
                     <source src="VID-20240629-WA0001.mp4" type="video/mp4">
                 </video>
                 <p>Exam days</p>
-                <form action="https://formbold.com/s/9R7GG" method="POST">
-<div>
-<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-Hey... say something!
-</textarea>
+               <div class="container">
+    <h2>Leave us a comment</h2>
+    <form action="https://formbold.com/s/9R7GG" method="POST"">
+       <textarea id="" placeholder="Add Your Comment" value=" "></textarea>
+       <div class="btn">
+           <input id="submit" type="submit" value="Comment">
+           <button id="clear">  
+            &#128591;</button>
+       </div> 
+    </form>
 </div>
-<input type="submit" value="Submit">
-</form>
+<div class="comments">
+   <h2>Comments</h2>
+    <div id="comment-box">
+    </div>
+</div>
             </div>
             <div class="video">
                 <video controls controlsList="nodownload">
