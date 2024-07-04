@@ -51,10 +51,12 @@ video {
 
 </style>
 <script>
-    
+       document.oncontextmenu = document.body.oncontextmenu = function() {
+    return false;
+}; 
 </script>
 </head>
-<body>
+<body  oncontextmenu="return false;">
     <header>
         <centre><a href="README.html"><h1>AlienTube</h1><a></centre>
     </header>
