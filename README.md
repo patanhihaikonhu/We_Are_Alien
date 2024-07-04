@@ -77,8 +77,13 @@
      align-items: center;
     }
 </style>
+<script>
+        document.oncontextmenu = document.body.oncontextmenu = function() {
+    return false;
+};
+</script>
 </head>
-<body>
+<body oncontextmenu="return false;">
 
 <video autoplay muted loop id="myVideo">
   <source src="9669111-hd_1080_1920_25fps.mp4" type="video/mp4">
