@@ -57,7 +57,7 @@
         transition: 0.3s;
         width: auto;
         font-family: monospace;
-        background-color: unset;
+        background-color:#F0E68C;
         color: azure;
             }
     .product-card:hover {
